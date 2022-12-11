@@ -17,6 +17,7 @@ mongoose
   .catch((err) => console.log(err));
 
 app.use("/", router);
+console.log("vaishali");
 
 app.listen(3003, function () {
   console.log("express app running on 3003");
